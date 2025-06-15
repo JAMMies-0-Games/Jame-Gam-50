@@ -1,0 +1,4 @@
+repository "Jame Gam 50@CollaborationSquared@cloud"
+  path "/"
+    br "/main"
+    co "/main"
