@@ -1,4 +1,4 @@
-repository "Jame Gam 50@CollaborationSquared@cloud"
+repository "Cloud Repositories/Jame Gam 50@6872651481513@cloud"
   path "/"
     br "/main"
     co "/main"
