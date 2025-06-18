@@ -2,13 +2,18 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class scene_logic
+public class scene_logic : MonoBehaviour
 {
-    public int curScene = 0; // This should reset at loading the first scene
+    public PCBManager PCBManager;
+    public int curScene = 0;
+
+    private bool hasInitialized = false;
 
     private void resetScene()
     {
-        SceneManager.LoadScene(curScene);
+        Debug.Log("Scene Advanced");
+        //SceneManager.LoadScene(curScene);
+        PCBManager.GeneratePCBs();
     }
 
     private void nextScene()
@@ -16,4 +21,24 @@ public class scene_logic
         curScene++;
         resetScene();
     }
+
+    void Update()
+    {
+        if (!hasInitialized)
+        {
+            hasInitialized = true;
+            FirstFrameInit();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space)) // to be changed
+        {
+            nextScene();
+        }
+    }
+
+    void FirstFrameInit()
+    {
+        resetScene();
+    }
+
 }
