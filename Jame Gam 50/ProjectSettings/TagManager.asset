@@ -6,7 +6,8 @@ TagManager:
   tags:
   - bigWhale
   - wall
-  - smallWhale
+  - babyBlueWhale
+  - momBlueWhale
   layers:
   - Default
   - TransparentFX

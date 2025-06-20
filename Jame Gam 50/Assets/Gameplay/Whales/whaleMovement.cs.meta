@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bbf271fe6b0d3634d84d73ffd3b8d252
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - anim1: {instanceID: 0}
+  - anim2: {instanceID: 0}
+  - anim3: {instanceID: 0}
+  - anim4: {instanceID: 0}
+  - anim5: {instanceID: 0}
+  - anim6: {instanceID: 0}
+  - anim7: {instanceID: 0}
+  - anim8: {instanceID: 0}
+  - anim9: {instanceID: 0}
+  - anim10: {instanceID: 0}
+  - renderer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

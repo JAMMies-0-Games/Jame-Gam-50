@@ -1,2 +1,19 @@
 fileFormatVersion: 2
 guid: f24e95cae28d7a4429edc29e75ad25d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - renderer: {instanceID: 0}
+  - specRenderer: {instanceID: 0}
+  - tile: {instanceID: 0}
+  - highlight: {instanceID: 0}
+  - specTile: {instanceID: 0}
+  - wallSprite: {instanceID: 0}
+  - bigWhaleSprite: {instanceID: 0}
+  - gridManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
