@@ -8,6 +8,7 @@ TagManager:
   - wall
   - babyBlueWhale
   - momBlueWhale
+  - babyPinkWhale
   layers:
   - Default
   - TransparentFX

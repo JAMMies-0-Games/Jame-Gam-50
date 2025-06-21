@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f680635a1aa43243af4f2621cde4838, type: 3}
+  m_Name: Blue Melody
+  m_EditorClassIdentifier: 
+  ID: 1
+  numberOfPrefabsToCreate: 0
+  PCBName: Blue Melody
+  description: Moves baby blue whale 3 tiles to the right.
+  sprite: {fileID: 5834746101665584134, guid: 481c7094a79289648af92ffde73778fc, type: 3}
+  timesBlue: 3
+  directionBlue: Right
+  timesPink: 0
+  directionPink: 
+  effect: {fileID: 0}

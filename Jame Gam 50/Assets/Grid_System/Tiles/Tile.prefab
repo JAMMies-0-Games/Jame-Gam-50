@@ -199,7 +199,10 @@ MonoBehaviour:
   specTile: {fileID: 1773197081764791173}
   wallSprite: {fileID: 7482667652216324306, guid: 46c7efa44a376d94988364e533d175c6, type: 3}
   momBlueWhaleSprite: {fileID: -4859666295073920601, guid: dd835c298d13a2d4db82b4cd82576e91, type: 3}
+  momPinkWhaleSprite: {fileID: -7845765156405610538, guid: 28cc96abc447e7c4ea2b9aeaba8d97cf, type: 3}
   babyBlueWhale: {fileID: 3787626091342698783, guid: 42023b02a3417064bb1567e696cd2b31, type: 3}
+  babyPinkWhale: {fileID: 9135617223432312273, guid: 74569e801e4d2944990f3b2a9dac117c, type: 3}
+  occupiedTiles: []
 --- !u!61 &3009940049103183179
 BoxCollider2D:
   m_ObjectHideFlags: 0

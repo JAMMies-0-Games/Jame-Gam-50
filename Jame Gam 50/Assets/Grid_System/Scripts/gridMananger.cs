@@ -9,7 +9,8 @@ public class gridManager : MonoBehaviour
 {
     [SerializeField] private int width, height;
     [SerializeField] private tileManager tilePrefab;
-    [SerializeField] private float camOffset;
+    [SerializeField] private float camXOffset;
+    [SerializeField] private float camYOffset;
     [SerializeField] private Transform cam;
     private List<Vector2> specTiles = new List<Vector2>();
     private List<string> specTilesType = new List<string>();
@@ -62,7 +63,7 @@ public class gridManager : MonoBehaviour
             }
         }
 
-        cam.transform.position = new Vector3((float)width / 2 - 0.5f - camOffset, (float)height / 2 - 0.5f, -10);
+        cam.transform.position = new Vector3((float)width / 2 - 0.5f - camXOffset, (float)height / 2 - 0.5f + camYOffset, -10);
     }
 
 }

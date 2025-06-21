@@ -8,5 +8,10 @@ public class PCBScriptableObject : ScriptableObject
     public int numberOfPrefabsToCreate;
     public string PCBName;
     public string description;
+    public Sprite sprite;
+    public int timesBlue;
+    public string directionBlue;
+    public int timesPink;
+    public string directionPink;
     public MonoBehaviour effect;
 }

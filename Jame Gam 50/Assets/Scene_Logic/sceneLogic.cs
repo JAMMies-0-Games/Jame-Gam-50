@@ -1,14 +1,13 @@
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class scene_logic : MonoBehaviour
 {
     public PCBManager PCBManager;
-    public int curScene = 0;
-
+    public int curScene;
     private bool hasInitialized = false;
-
     private void resetScene()
     {
         Debug.Log("Scene Advanced");
@@ -19,6 +18,7 @@ public class scene_logic : MonoBehaviour
     private void nextScene()
     {
         curScene++;
+        SceneManager.LoadScene("Level " + curScene);
         resetScene();
     }
 

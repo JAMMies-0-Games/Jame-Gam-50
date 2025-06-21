@@ -77,15 +77,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1972628181314094493, guid: 8913c351ed411a94b95a8e77147125ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.23, y: 4.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &8618332586068012818
@@ -112,5 +112,5 @@ MonoBehaviour:
   anim10: {fileID: 1450518539601232999, guid: 97d8227dd84770c409d8e041cb18be0a, type: 3}
   renderer: {fileID: 2962268526472581338}
   animSpeed: 1
-  currTile: {fileID: 0}
   wallTiles: []
+  tile: {fileID: 0}
